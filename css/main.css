@@ -1,0 +1,80 @@
+@import url("https://use.typekit.net/ixk5mhv.css");
+body {
+  margin: 0;
+  font-family: "edita", serif;
+  font-size: 1.3125rem;
+  line-height: 1.5;
+  color: #89807A;
+  font-weight: 400;
+}
+
+h1, h2, h3, p, figure {
+  margin: 0;
+}
+
+.section__title,
+.section__subtitle {
+  font-family: "program", sans-serif;
+  line-height: 1;
+}
+
+.section__title {
+  font-size: 4.75rem;
+  color: #414A4D;
+}
+
+.section__subtitle {
+  font-size: 1.69rem;
+  color: #A3B9BF;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: .5em;
+}
+
+.logo {
+  width: 250px;
+  margin: 0 auto 2em;
+  display: block;
+}
+
+.section--intro {
+  background-image: url(../images/hero-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -ms-grid;
+  display: grid;
+  grid: auto-flow/minmax(1em, 1fr) minmax(400px, 650px) minmax(1em, 1fr);
+  padding: 10vh 0;
+  text-align: center;
+  color: #AEA79E;
+}
+
+.section--intro .logo {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+  margin-bottom: 2.5em;
+}
+
+.intro__text {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+  position: relative;
+}
+
+.intro__text::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background: white;
+  opacity: .3;
+  width: 100px;
+  position: absolute;
+  top: -1em;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+/*# sourceMappingURL=main.css.map */

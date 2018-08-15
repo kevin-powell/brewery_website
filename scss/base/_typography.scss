@@ -1,0 +1,34 @@
+@import url("https://use.typekit.net/ixk5mhv.css");
+
+body {
+  margin: 0;
+  font-family: $ff-body;
+  font-size: 1.3125rem;
+  line-height: 1.5;
+  color: $clr-brown-dark; 
+  font-weight: $fw-normal;
+}
+
+h1, h2, h3, p, figure {
+  margin: 0;
+}
+
+.section__title,
+.section__subtitle {
+  font-family: $ff-title;
+  line-height: 1;
+}
+
+.section__title {
+  font-size: 4.75rem;
+  color: $clr-blue-dark;
+}
+
+.section__subtitle {
+  font-size: 1.69rem;
+  color: $clr-blue-light;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: .5em;
+}
