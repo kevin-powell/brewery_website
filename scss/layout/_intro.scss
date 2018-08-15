@@ -1,6 +1,6 @@
 .logo {
   width: 250px;
-  margin: 0 auto 2em;
+  margin: 2em auto;
   display: block;
 }
 
@@ -10,8 +10,6 @@
     size: cover;
     repeat: no-repeat;
   }
-  display: grid;
-  grid: auto-flow / minmax(1em, 1fr) minmax(400px, 650px) minmax(1em, 1fr);
   padding: 10vh 0;
   text-align: center;
   color: $clr-brown-base;

@@ -1,0 +1,60 @@
+.section--beer {
+  text-align: center;
+}
+
+.grid-carousel {
+  grid-column: 1 / -1;
+  display: grid;
+  grid: auto-flow / 2em repeat(5, 1fr) 2em;
+  max-width: 1200px;
+  margin: 3em auto;
+  position: relative;
+
+  &__item {
+    @include applyOrder(5);
+    transform: scale(.7);
+
+    &.featured {
+      transform: scale(1);
+    }
+  }
+
+  &__caption {
+    opacity: 0;
+  }
+
+  &__item.featured &__caption {
+    opacity: 1;
+  }
+  
+
+  &__button {
+    all: unset;
+    padding: .5em;
+    &:last-of-type {
+      order: 99;
+    }
+  }
+
+  &::before,
+  &::after {
+    content: ''; 
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+
+  &::before {
+    grid-column: 2 / 4;
+    background: linear-gradient(to right, rgba(white, .9), rgba(white, .6));
+  }
+
+  &::after {
+    grid-column: -2 / -4;
+    background: linear-gradient(to left, rgba(white, .9), rgba(white, .6));
+  }
+}

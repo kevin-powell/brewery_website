@@ -1,0 +1,28 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.logo--light * {
+  fill: $clr-brown-light;
+}
+
+.section {
+  display: grid;
+  grid: auto-flow / minmax(1em, 1fr) minmax(300px, 650px) minmax(1em, 1fr);  
+  padding: 5em 0 0;
+
+  &__title,
+  &__subtitle,
+  p {
+    grid-column: 2 / 3;
+  }
+}
+
+.section--card {
+  grid: repeat(4, 1fr) / minmax(1em, 1fr) repeat(6, 1fr) minmax(1em, 1fr)
+}

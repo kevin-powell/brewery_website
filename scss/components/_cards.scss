@@ -1,0 +1,40 @@
+.card {
+  grid-row: 1 / 4;
+  padding: 2em;
+  outline: 2px solid currentColor;
+  outline-offset: -1em;
+  box-shadow: 0 5px .5em rgba(black, .3);
+
+  &--dark {
+    background: $clr-blue-dark;
+    color: $clr-blue-light;
+
+    .section__title {
+      color: white;
+    }
+  }
+
+  &--light {
+    background: white;
+  }
+
+  &--start {
+    grid-column: 2 / span 4;
+  }
+
+  &--end {
+    grid-column: 4 / span 4;
+  }
+
+  &__image {
+    z-index: -1;
+    grid-row: 2 / 5; 
+    &--start {
+      grid-column: 2 / span 3;
+    }
+
+    &--end {
+      grid-column: 5 / span 3;
+    }
+  }
+}

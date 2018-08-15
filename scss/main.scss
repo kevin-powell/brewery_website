@@ -1,6 +1,15 @@
 @import 'abstracts/colors';
 @import 'abstracts/typography';
+@import 'abstracts/mixins';
 
 @import 'base/typography';
 
+@import 'layout/general';
+@import 'layout/nav';
 @import 'layout/intro';
+@import 'layout/beer';
+@import 'layout/brewery';
+@import 'layout/footer';
+
+@import 'components/cards';
+@import 'components/buttons';

@@ -47,6 +47,11 @@
     <p>For example, the Busch indicates that a tipsy bottle dances with some geosynchronous Sierra Nevada. Furthermore, the mug earns enough for a beer, and the burglar ale borrows money from.</p>
     
     <div class="grid-carousel">
+      <button class="grid-carousel__button js-left">
+          <svg id="left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 31">
+            <title>left-arrow</title>
+            <path id="left-arrow" d="M15.5,3.5l-12,12,12,12" transform="translate(0)" fill="none" stroke="#645a57" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/></svg>
+      </button>
       <!-- carousel item 01 -->
       <figure class="grid-carousel__item">
         <img src="images/beer-1.jpg" class="grid-carousel__image">
@@ -61,19 +66,19 @@
       <figure class="grid-carousel__item">
           <img src="images/beer-2.jpg" class="grid-carousel__image">
           <figcaption class="grid-carousel__caption">
-            <h3 class="grid-carousel__title">IPA</h3>
-            <p class="grid-carousel__subtitle">6.2%<span>alcohol</span></span></p>
-            <p class="grid-carousel__description">Our take on a classic style</p>
+            <h3 class="grid-carousel__title">Raspberry Ale</h3>
+            <p class="grid-carousel__subtitle">4.9%<span>alcohol</span></span></p>
+            <p class="grid-carousel__description">Beat the heat with this refreshing summer beer</p>
           </figcaption>
         </figure>
 
         <!-- carousel item 03 -->
-      <figure class="grid-carousel__item">
+      <figure class="grid-carousel__item featured">
           <img src="images/beer-3.jpg" class="grid-carousel__image">
           <figcaption class="grid-carousel__caption">
-            <h3 class="grid-carousel__title">IPA</h3>
-            <p class="grid-carousel__subtitle">6.2%<span>alcohol</span></span></p>
-            <p class="grid-carousel__description">Our take on a classic style</p>
+            <h3 class="grid-carousel__title">Saison</h3>
+            <p class="grid-carousel__subtitle">5.8%<span>alcohol</span></span></p>
+            <p class="grid-carousel__description">A  farmhouse style Saison</p>
           </figcaption>
         </figure>
 
@@ -81,9 +86,9 @@
       <figure class="grid-carousel__item">
           <img src="images/beer-4.jpg" class="grid-carousel__image">
           <figcaption class="grid-carousel__caption">
-            <h3 class="grid-carousel__title">IPA</h3>
-            <p class="grid-carousel__subtitle">6.2%<span>alcohol</span></span></p>
-            <p class="grid-carousel__description">Our take on a classic style</p>
+            <h3 class="grid-carousel__title">Brett Pale Ale</h3>
+            <p class="grid-carousel__subtitle">6.4%<span>alcohol</span></span></p>
+            <p class="grid-carousel__description">A rustic style beer</p>
           </figcaption>
         </figure>
 
@@ -91,41 +96,51 @@
       <figure class="grid-carousel__item">
           <img src="images/beer-5.jpg" class="grid-carousel__image">
           <figcaption class="grid-carousel__caption">
-            <h3 class="grid-carousel__title">IPA</h3>
+            <h3 class="grid-carousel__title">ESB</h3>
             <p class="grid-carousel__subtitle">6.2%<span>alcohol</span></span></p>
-            <p class="grid-carousel__description">Our take on a classic style</p>
+            <p class="grid-carousel__description">A classic English style beer</p>
           </figcaption>
         </figure>
+
+        <button class="grid-carousel__button js-right">
+            <svg id="right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 31">
+              <title>right-arrow</title>
+              <path id="right-arrow" d="M3.5,27.49l12-12-12-12" transform="translate(0 0.01)" fill="none" stroke="#645a57" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+            </svg>
+        </button>
     </div>
   </section>
 
-  <section class="section section--mission">
-    <div class="card card--dark back">
+  <section class="section section--card section--mission">
+    <div class="card card--start card--dark back">
       <h2 class="section__title">Our mission</h2>
       <p class="section__subtitle">Why we do what we do</p>
       <p>For example, the Busch indicates that a tipsy bottle dances with some geosynchronous Sierra Nevada. Furthermore, the mug earns enough for a beer, and the burglar ale borrows money from.</p>
       <a href="" class="btn btn--light">Read More</a>
     </div>
-    <img src="images/mission.jpg" alt="man smiling while working at brewery" class="front">
+    <img src="images/mission.jpg" alt="man smiling while working at brewery" class="front card__image card__image--end">
   </section>
 
   <section class="section section--brewery">
-    <h2 class="section__title">Our brewery</h2>
-    <p class="section__subtitle">Free tours every Saturday and Sunday</p>
-    <p>For example, the Busch indicates that a tipsy bottle dances with some geosynchronous Sierra Nevada. Furthermore, the mug earns enough for a beer, and the burglar ale borrows money from.</p>
-    <p>The bud light barely satiates a Full Sail IPA. When the monkey bite from a mating ritual is usually loyal, a Sam Adams completely figures out the bar tab related to the corona light. If a financial shot dumbly reaches an understanding with a Budweiser Select over a Pilsner, then an incinerated colt 45 trembles. When a plowed Hoptoberfest feels nagging remorse, the polka-dotted Red Stripe gets stinking drunk. When you see the stein.</p>
-    <a href="#" class="btn btn--light">Find out more</a>
+    <img class="section--brewery__image" src="images/keg.jpg" alt="some kegs">
+    <div class="section--brewery__text-box">
+      <h2 class="section__title">Our brewery</h2>
+      <p class="section__subtitle">Free tours every Saturday and Sunday</p>
+      <p>For example, the Busch indicates that a tipsy bottle dances with some geosynchronous Sierra Nevada. Furthermore, the mug earns enough for a beer, and the burglar ale borrows money from.</p>
+      <p>The bud light barely satiates a Full Sail IPA. When the monkey bite from a mating ritual is usually loyal, a Sam Adams completely figures out the bar tab related to the corona light. If a financial shot dumbly reaches an understanding with a Budweiser Select over a Pilsner, then an incinerated colt 45 trembles. When a plowed Hoptoberfest feels nagging remorse, the polka-dotted Red Stripe gets stinking drunk. When you see the stein.</p>
+      <a href="#" class="btn btn--light">Find out more</a>
+    </div>
   </section>
 
-  <section class="section section--taproom">
-    <div class="card card--dark front">
+  <section class="section section--card section--taproom">
+    <div class="card card--light card--end">
       <h2 class="section__title">Taproom</h2>
       <p class="section__subtitle">Try our beers on location</p>
       <p>For example, the Busch indicates that a tipsy bottle dances with some geosynchronous Sierra Nevada. Furthermore, the mug earns enough for a beer, and the burglar ale borrows money from.</p>
       <a href="" class="btn btn--outline">What's on tap</a>
       <a href="" class="btn btn--dark">Opening Hours</a>
     </div>
-    <img src="images/taproom.jpg" alt="waitress serving two flights of beer" class="back">
+    <img src="images/taproom.jpg" alt="waitress serving two flights of beer" class="card__image card__image--start">
   </section>
 
   <footer>
@@ -152,6 +167,7 @@
     <p>design by kevin powell</p>
   </footer>
 
+  <script src="carousel.js"></script>
 
 </body>
 </html>

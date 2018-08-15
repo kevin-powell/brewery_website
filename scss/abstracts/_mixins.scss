@@ -1,0 +1,7 @@
+@mixin applyOrder($number) {
+  @for $i from 1 through $number {
+    &:nth-of-type(#{$i}) {
+      order: #{$i};
+    }
+  }
+}

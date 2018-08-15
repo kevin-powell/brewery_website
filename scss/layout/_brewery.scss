@@ -1,0 +1,13 @@
+.section--brewery {
+  grid: auto-flow / minmax(300px, 2fr) minmax(300px, 650px) 1fr;
+  grid-column-gap: 2em;
+
+  &__image {
+    grid-column: 1 / 2;
+    margin-left: auto;
+  }
+  &__text-box {
+    grid-column: 2 / 3;
+    align-self: center;
+  }
+}
