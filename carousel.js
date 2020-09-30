@@ -16,7 +16,7 @@ const featuredItem = elem => {
   } else {
     elem.classList.remove('featured');
   }
-}
+  {
 
 const moveRight = _ => {
   slides.forEach(function(slide) {
