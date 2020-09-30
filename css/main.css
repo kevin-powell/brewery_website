@@ -131,7 +131,7 @@ nav a:hover {
 .intro__text::after {
   content: '';
   display: block;
-  height: 1px;
+  height: 2px;
   background: white;
   opacity: .3;
   width: 100px;
