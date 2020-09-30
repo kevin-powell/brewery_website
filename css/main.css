@@ -28,11 +28,11 @@ p {
 }
 
 .section__subtitle {
-  font-size: 1.69rem;
+  font-size: 1.68rem;
   color: #A3B9BF;
   font-style: italic;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   margin-bottom: .5em;
 }
 
