@@ -1,4 +1,5 @@
 @import url("https://use.typekit.net/ixk5mhv.css");
+/*body for the code*/
 body {
   margin: 0;
   font-family: "edita", serif;
@@ -7,15 +8,15 @@ body {
   color: #89807A;
   font-weight: 400;
 }
-
+/*headers*/
 h1, h2, h3, p, figure {
   margin: 0;
 }
-
+/*para*/
 p {
   margin-bottom: 1em;
 }
-
+/*adding sections*/
 .section__title,
 .section__subtitle {
   font-family: "program", sans-serif;
@@ -40,7 +41,7 @@ p {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-
+/*adding image*/
 img {
   max-width: 100%;
   height: auto;
@@ -49,7 +50,7 @@ img {
 .logo--light * {
   fill: #D3CDC1;
 }
-
+/*sections*/
 .section {
   display: -ms-grid;
   display: grid;
