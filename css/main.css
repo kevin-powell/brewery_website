@@ -16,7 +16,11 @@ p {
   margin-bottom: 1em;
 }
 
-.section__title,
+.section__title{
+  font-family: "program", sans-serif;
+  line-height: 1;
+}
+  
 .section__subtitle {
   font-family: "program", sans-serif;
   line-height: 1;
