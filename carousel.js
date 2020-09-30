@@ -10,7 +10,7 @@ const getOrder = (elem) => {
   return order;
 }
 
-const featuredItem = elem => {
+const FeaturedItem = elem => {
   if (order == 3) {
     elem.classList.add('featured');
   } else {
@@ -28,7 +28,7 @@ const moveRight = _ => {
       slide.style.order = 1;
     }
 
-    featuredItem(slide);
+    FeaturedItem(slide);
 
   });
 }
@@ -43,7 +43,7 @@ const moveLeft = _ => {
       slide.style.order = 5;
     }
 
-    featuredItem(slide);
+    FeaturedItem(slide);
   });
 }
 
