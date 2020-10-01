@@ -12,9 +12,9 @@ const getOrder = (elem) => {
 
 const featuredItem = elem => {
   if (order == 3) {
-    elem.classList.add('featured');
+    elem.classList.add(' elem featured');
   } else {
-    elem.classList.remove('featured');
+    elem.classList.remove('elem featured');
   }
 }
 
