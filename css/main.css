@@ -29,7 +29,7 @@ p {
 
 .section__subtitle {
   font-size: 1.69rem;
-  color: #A3B9BF;
+  color: #337e92;
   font-style: italic;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -47,7 +47,7 @@ img {
 }
 
 .logo--light * {
-  fill: #D3CDC1;
+  fill: #868480;
 }
 
 .section {
@@ -69,12 +69,12 @@ img {
 }
 
 nav {
-  color: #D3CDC1;
+  color: #775105;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  border-top: 0.5em solid #D3CDC1;
+  border-top: 0.5em solid #d3d1ce;
 }
 
 nav ul {
