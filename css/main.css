@@ -1,11 +1,12 @@
 @import url("https://use.typekit.net/ixk5mhv.css");
 body {
   margin: 0;
+  padding:0;
   font-family: "edita", serif;
   font-size: 1.3125rem;
   line-height: 1.5;
   color: #89807A;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 h1, h2, h3, p, figure {
