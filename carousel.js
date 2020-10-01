@@ -1,7 +1,7 @@
 const carousel = document.querySelector('.grid-carousel');
 const slides = carousel.querySelectorAll('.grid-carousel__item');
-const leftButton = carousel.querySelector('.js-left');
-const rightButton = carousel.querySelector('.js-right');
+const lB = carousel.querySelector('.js-left');
+const rB = carousel.querySelector('.js-right');
 
 const getOrder = (elem) => {
   const styles = getComputedStyle(elem);
