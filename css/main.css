@@ -1,6 +1,6 @@
 @import url("https://use.typekit.net/ixk5mhv.css");
 body {
-  margin: 0;
+/*   margin: 0; */
   font-family: "edita", serif;
   font-size: 1.3125rem;
   line-height: 1.5;
@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2, h3, p, figure {
-  margin: 0;
+/*   margin: 0; */
 }
 
 p {
@@ -71,9 +71,9 @@ img {
 nav {
   color: #D3CDC1;
   position: absolute;
-  top: 0;
+/*   top: 0;
   left: 0;
-  right: 0;
+  right: 0; */
   border-top: 0.5em solid #D3CDC1;
 }
 
@@ -86,7 +86,7 @@ nav ul {
           justify-content: space-evenly;
   list-style: none;
   margin: 1em auto 0;
-  padding: 0;
+/*   padding: 0; */
   max-width: 500px;
 }
 
@@ -219,10 +219,10 @@ nav a:hover {
   content: '';
   display: block;
   position: absolute;
-  top: 0;
+/*   top: 0;
   bottom: 0;
   left: 0;
-  right: 0;
+  right: 0; */
   z-index: 10;
 }
 
@@ -274,7 +274,7 @@ footer .logo {
 footer p {
   font-family: "program", sans-serif;
   line-height: 1;
-  margin: 0;
+/*   margin: 0; */
 }
 
 .card {
