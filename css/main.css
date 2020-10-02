@@ -145,6 +145,10 @@ nav a:hover {
 .section--beer {
   text-align: center;
 }
+/* container */
+.container-fluid{
+  padding: 7% 15%;
+}
 
 .grid-carousel {
   grid-column: 1 / -1;
@@ -359,5 +363,10 @@ footer p {
 .btn--outline {
   border: 2px solid currentColor;
   color: #414A4D;
+}
+
+/* footer icons  */
+.social-icon {
+  margin: 20px 10px;
 }
 /*# sourceMappingURL=main.css.map */
